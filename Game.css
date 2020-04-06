@@ -1,58 +1,82 @@
 @charset "utf-8";
-/* CSS Document abc*/
+/* CSS Document */
+body{
+	background:url(background3.jpg) no-repeat center center fixed;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+ 	background-size: 100% 100%;
+	margin:0px;
+}
+#tieude{
+	width:64,1%;
+	height:6%;
+	color:#F03;
+	background-color:#3F0;
+	padding-top:1%;
+	font-size:28px;
+	border-top:#00C double 10px;
+	border-left:#00C double 10px;
+	border-right:#00C double 10px;
+	border-bottom:#00C double 10px;
+}
 #game1{
-	width: 150px;
-	height: 150px;
+	width: 12%;
+	height: 14%;
 	position: absolute;
-	left: 400px;
-	top: 150px;
+	left: 30%;
+	top: 40%;
 	z-index: 1;
 }
 #game2{
-	width: 150px;
-	height: 150px;
+	width: 12%;
+	height: 14%;
 	position: absolute;
-	left: 600px;
-	top: 150px;
+	left:45%;
+	top: 40%;
 	z-index: 1;
 }
 #game3{
-	width: 150px;
-	height: 150px;
+	width: 12%;
+	height: 14%;
 	position: absolute;
-	left: 800px;
-	top: 150px;
+	left: 60%;
+	top: 40%;
 	z-index: 1;
 }
 .game1{
-	width: 100px;
-	height: 150px;
+	width: 11%;
+	height: 11%;
 	position: absolute;
 	text-decoration: none;
-	left: 410px;
-	top: 320px;
+	left: 32%;
+	top: 55%;
 	z-index: 1;
+	color:#00C
 }
 .game2{
-	width: 150px;
-	height: 150px;
+	width: 11%;
+	height: 11%;
 	position: absolute;
 	text-decoration: none;
-	left: 610px;
-	top: 320px;
+	left:46%;
+	top:55%;
 	z-index: 1;
+	color:#00C;
 }
 .game3{
-	width: 150px;
-	height: 150px;
+	width: 11%;
+	height: 11%;
 	position: absolute;
 	text-decoration: none;
-	left: 810px;
-	top: 320px;
+	left: 61%;
+	top: 55%;
 	z-index: 1;
+	color:#00C
 }
 #nd{
 	font-size:20px;
 	color: #D01215;
 	font-style: italic;
 	}
+
